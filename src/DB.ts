@@ -7,12 +7,10 @@ export interface Skill_Type {
 export const Skills: Array<Skill_Type> = [
     {
         name: "Ableton",
-
         id: "ableton"
     },
     {
         name: "ActivityPub",
-
         id: "activitypub"
     },
     {
@@ -232,14 +230,15 @@ export const Skills: Array<Skill_Type> = [
 
         keywords: [
             "dotnet",
-
             "Microsoft .NET"
         ]
     },
     {
         name: "DynamoDB",
         id: "dynamodb",
-        keywords: ["Amazon DynamoDB"]
+        keywords: [
+            "Amazon DynamoDB"
+        ]
     },
     {
         name: "Eclipse",
@@ -320,7 +319,9 @@ export const Skills: Array<Skill_Type> = [
     {
         name: "GCP",
         id: "gcp",
-        keywords: ["Google Cloud Platform"]
+        keywords: [
+            "Google Cloud Platform",
+        ]
     },
     {
         name: "Git",
@@ -412,7 +413,11 @@ export const Skills: Array<Skill_Type> = [
     },
     {
         name: "Instagram",
-        id: "instagram"
+        id: "instagram",
+        keywords: [
+            "insta",
+            "Meta"
+        ]
     },
     {
         name: "IPFS",
@@ -464,7 +469,11 @@ export const Skills: Array<Skill_Type> = [
     },
     {
         name: "LaTeX",
-        id: "latex"
+        id: "latex",
+        keywords: [
+            "TeX",
+            "TeXLive"
+        ]
     },
     {
         name: "Less",
@@ -472,7 +481,10 @@ export const Skills: Array<Skill_Type> = [
     },
     {
         name: "LinkedIn",
-        id: "linkedin"
+        id: "linkedin",
+        keywords: [
+            "Microsoft LinkedIn",
+        ]
     },
     {
         name: "Linux",
