@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SkillIcons Dev</title>
+    <link rel="stylesheet" href="tailwind.css">
+    <link rel="shortcut icon" href="favicon.png" type="image/png">
+    
+    <!-- Content Security Policy -->
+    <meta http-equiv="Content-Security-Policy" content="
+    default-src 'self';
+    script-src 'self' 'unsafe-eval';
+    style-src 'self' 'unsafe-inline' https://fonts.googleapis.com;
+    img-src 'self' data: https://skillicons.dev;
+    font-src 'self' https://fonts.googleapis.com https://fonts.gstatic.com;
+    connect-src 'self' https://teamsmapis.vercel.app https://api.ipify.org;
+    media-src 'self';
+    object-src 'self';
+    frame-src 'self';
+    worker-src 'self';
+    block-all-mixed-content;
+    upgrade-insecure-requests;">
+</head>
+
+<body>
+    <div id="root"></div>
+    <script type="module" src="/src/index.tsx"></script>
+</body>
+
+</html>

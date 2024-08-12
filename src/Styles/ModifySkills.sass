@@ -1,0 +1,69 @@
+.Configaration
+    display: flex
+    flex-direction: column
+    align-items: center
+    justify-content: center
+    height: auto
+    .Form
+        display: flex
+        flex-direction: row
+        align-items: center
+        gap: 10px
+        justify-content: center
+        flex-wrap: wrap
+    img
+        user-drag: none
+        user-select: none
+        -webkit-user-drag: none
+        -webkit-user-select: none
+        -moz-user-select: none
+        -ms-user-select: none
+        -o-user-select: none
+    input
+        width: 150px
+        margin: 10px 0
+        padding: 10px
+        border: 1px solid #ccc
+        border-radius: 5px
+        font-size: 16px
+        outline: none
+        transition: 0.3s
+        &:focus
+            border-color: #333
+        &::placeholder
+            color: #ccc
+    select
+        width: 150px
+        margin: 10px 0
+        padding: 10px
+        border: 1px solid #ccc
+        border-radius: 5px
+        font-size: 16px
+        outline: none
+        transition: 0.3s
+        &:focus
+            border-color: #333
+    .Skills
+        display: grid
+        // ? Responsive Grid Template that will auto adjust the columns
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr))
+        align-items: center
+        flex-direction: row
+        gap: 10px
+        // justify-content: space-between
+        // flex-wrap: wrap
+        margin: 10px
+        padding: 10px
+        border: 1px solid #303030
+        border-radius: 5px
+        .Skill
+            background: #303030
+            color: #fff
+            padding: 5px 10px
+            border-radius: 5px
+            display: flex
+            align-items: center
+            gap: 10px
+            justify-content: space-between
+            // margin: 5px 0
+            user-select: none
